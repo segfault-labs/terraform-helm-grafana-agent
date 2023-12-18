@@ -1,4 +1,4 @@
-%{ if promethes_enabled }
+%{ if prometheus_enabled }
 metrics:
   wal_directory: /var/lib/agent/wal
   global:
